@@ -1,0 +1,92 @@
+
+    h1{
+        color: rgb(245, 244, 255); 
+        font-family: Allan;
+        font-size: 35px;
+        background-color:black;
+        text-shadow: 4px 4px 10px slateblue;
+        text-align: center;
+    }
+    .topnav{
+        background-color:wrgb(190, 190, 190);
+        color: slateblue;
+        overflow: hidden;
+        margin: 0 auto;
+        box-align: center;
+        text-align: center;
+        width: 78%;
+      }
+      
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        display: block;
+        background-color: slateblue;
+        color: whitesmoke;
+        font-family: Allan;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        display: inline-block;
+      }
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background-color: whitesmoke;
+        color: slateblue;
+      }
+      
+      /* Add an active class to highlight the current page */
+      .topnav a.active {
+        background-color: slateblue;
+        color: white;
+      }
+      
+      /* Hide the link that should open and close the topnav on small screens */
+      .topnav .icon {
+        display: none;
+      }
+      .dropdown{
+        width: 100px;
+       position: absolute;
+        
+      }
+      .dropdown-content{
+        display: none;
+        background-color: whitesmoke;
+        color: black;
+        width: 100px;
+        position: absolute;
+
+      }
+      .dropbtn{
+        margin: 0;
+        width: 100px;
+        margin-top: -57px;
+        margin-left: 110px;
+        position: absolute;
+        margin-bottom: auto;
+      }
+      .dropdown-content a {
+        float: none;
+        display: block;
+        width: 100px;
+    
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+        width: 100px;
+        margin-left: 160px
+      }
+ 
+      table,
+      td {
+          border: 1px solid #333;
+      }
+      
+      thead,
+      tfoot {
+          background-color: #333;
+          color: #fff;
+      }
+      

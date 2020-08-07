@@ -23,5 +23,7 @@ app.get("/event", (req, res) => {
 app.get("/join", (req, res) => {
   res.sendFile("join.html", { root: views })
 })
-app.listen(3000)
+const port = process.env.PORT || 3000;
+
+app.listen(port)
 console.log("Running at port 3000")

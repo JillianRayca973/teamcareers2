@@ -57,7 +57,8 @@
       }
       .dropdown{
         width: 100px;
-       position: absolute;
+        position: absolute;
+	left: 50%
         
       }
       .dropdown-content{

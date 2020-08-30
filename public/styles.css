@@ -1,4 +1,13 @@
-
+    * {
+	    margin:0;
+	    padding:0;
+	    border:0;
+        }
+    #wrapper {
+	    
+	    width: 1250px;
+	    margin: auto;
+        }
     h1{
         color: rgb(245, 244, 255); 
         font-family: Allan;
